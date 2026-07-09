@@ -1,0 +1,83 @@
+version: "3.8"
+
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: schoolarshild_nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - frontend
+      - backend
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: schoolarshild_frontend
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost/api/v1
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: schoolarshild_backend
+    environment:
+      - DATABASE_URL=postgresql://user:password@db:5432/schoolarshild
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - db
+      - redis
+
+  celery_worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    command: celery -A app.workers.celery_app worker --loglevel=info
+    container_name: schoolarshild_celery_worker
+    environment:
+      - DATABASE_URL=postgresql://user:password@db:5432/schoolarshild
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - db
+      - redis
+      - backend
+
+  db:
+    image: postgres:15
+    container_name: schoolarshild_db
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: schoolarshild
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    container_name: schoolarshild_redis
+    restart: always
+    ports:
+      - "6379:6379"
+
+  prometheus:
+    image: prom/prometheus
+    container_name: schoolarshild_prometheus
+    ports:
+      - "9090:9090"
+
+  grafana:
+    image: grafana/grafana
+    container_name: schoolarshild_grafana
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+
+volumes:
+  postgres_data:

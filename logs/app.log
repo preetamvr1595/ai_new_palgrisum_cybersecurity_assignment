@@ -1,0 +1,200 @@
+2026-07-07 07:58:57,334 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 21851c26-eb42-447f-9b6d-3f2ebaadde91]
+2026-07-07 07:58:57,437 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 751eb201-69a1-42f7-9149-0a67f48a21fa]
+2026-07-07 07:59:07,916 - lexiforge - ERROR - Database Error [req_id: 751eb201-69a1-42f7-9149-0a67f48a21fa]: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-07-07 07:59:08,223 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 500 - Time: 10.7765s [req_id: 751eb201-69a1-42f7-9149-0a67f48a21fa]
+2026-07-07 07:59:08,250 - lexiforge - ERROR - Database Error [req_id: 21851c26-eb42-447f-9b6d-3f2ebaadde91]: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-07-07 07:59:08,257 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 500 - Time: 13.0580s [req_id: 21851c26-eb42-447f-9b6d-3f2ebaadde91]
+2026-07-07 07:59:24,979 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: f1fbd3a5-80cf-4c21-8c01-b290bc38ae21]
+2026-07-07 07:59:29,127 - lexiforge - ERROR - Database Error [req_id: f1fbd3a5-80cf-4c21-8c01-b290bc38ae21]: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-07-07 07:59:29,127 - lexiforge - INFO - Completed Request: POST /api/v1/auth/register - Status: 500 - Time: 4.1483s [req_id: f1fbd3a5-80cf-4c21-8c01-b290bc38ae21]
+2026-07-07 08:01:05,801 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: ba82ad8a-9a84-4a14-a8ed-c35a9529cc5d]
+2026-07-07 08:01:09,896 - lexiforge - ERROR - Database Error [req_id: ba82ad8a-9a84-4a14-a8ed-c35a9529cc5d]: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-07-07 08:01:09,899 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 500 - Time: 4.0980s [req_id: ba82ad8a-9a84-4a14-a8ed-c35a9529cc5d]
+2026-07-07 08:02:44,478 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 019606bc-5d31-47d9-866a-79b81a8a4bc3]
+2026-07-07 08:02:48,650 - lexiforge - ERROR - Database Error [req_id: 019606bc-5d31-47d9-866a-79b81a8a4bc3]: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-07-07 08:02:48,711 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 500 - Time: 4.2334s [req_id: 019606bc-5d31-47d9-866a-79b81a8a4bc3]
+2026-07-07 08:09:26,916 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 96f1621b-1433-432b-a4b1-dfa0728260f4]
+2026-07-07 08:09:27,899 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.9826s [req_id: 96f1621b-1433-432b-a4b1-dfa0728260f4]
+2026-07-07 08:09:30,584 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 56b3cdfd-8f03-44b4-852e-3e1093de67bd]
+2026-07-07 08:09:30,667 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.0833s [req_id: 56b3cdfd-8f03-44b4-852e-3e1093de67bd]
+2026-07-07 08:09:34,603 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: a83cfd85-fadb-41fc-aec5-103efe7fc02d]
+2026-07-07 08:09:36,166 - lexiforge - ERROR - Failed Request: POST /api/v1/auth/register - Time: 1.5629s [req_id: a83cfd85-fadb-41fc-aec5-103efe7fc02d] - Error: 'password' is an invalid keyword argument for User
+2026-07-07 08:09:36,171 - lexiforge - CRITICAL - Unhandled Exception [req_id: a83cfd85-fadb-41fc-aec5-103efe7fc02d]: 'password' is an invalid keyword argument for User
+2026-07-07 08:09:38,816 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: 445b37c9-fc30-4bf0-b4e8-b58642d17605]
+2026-07-07 08:09:38,979 - lexiforge - ERROR - Failed Request: POST /api/v1/auth/register - Time: 0.1641s [req_id: 445b37c9-fc30-4bf0-b4e8-b58642d17605] - Error: 'password' is an invalid keyword argument for User
+2026-07-07 08:09:38,985 - lexiforge - CRITICAL - Unhandled Exception [req_id: 445b37c9-fc30-4bf0-b4e8-b58642d17605]: 'password' is an invalid keyword argument for User
+2026-07-07 08:09:42,717 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: f83b9eb2-8655-4d5a-a732-494fff1ab729]
+2026-07-07 08:09:42,914 - lexiforge - ERROR - Failed Request: POST /api/v1/auth/register - Time: 0.1974s [req_id: f83b9eb2-8655-4d5a-a732-494fff1ab729] - Error: 'password' is an invalid keyword argument for User
+2026-07-07 08:09:42,923 - lexiforge - CRITICAL - Unhandled Exception [req_id: f83b9eb2-8655-4d5a-a732-494fff1ab729]: 'password' is an invalid keyword argument for User
+2026-07-07 08:10:07,347 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: 6f356de5-e789-4579-8e62-58a18ac05d31]
+2026-07-07 08:10:08,294 - lexiforge - WARNING - Validation Error [req_id: 6f356de5-e789-4579-8e62-58a18ac05d31]: [{'type': 'string_too_short', 'loc': ('body', 'password'), 'msg': 'String should have at least 8 characters', 'input': 'preetam', 'ctx': {'min_length': 8}}]
+2026-07-07 08:10:08,306 - lexiforge - INFO - Completed Request: POST /api/v1/auth/register - Status: 422 - Time: 0.9596s [req_id: 6f356de5-e789-4579-8e62-58a18ac05d31]
+2026-07-07 08:10:14,825 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: 90391a55-3c67-4364-8a25-9fe735152f18]
+2026-07-07 08:10:14,834 - lexiforge - WARNING - Validation Error [req_id: 90391a55-3c67-4364-8a25-9fe735152f18]: [{'type': 'string_too_short', 'loc': ('body', 'password'), 'msg': 'String should have at least 8 characters', 'input': 'preetam', 'ctx': {'min_length': 8}}]
+2026-07-07 08:10:14,836 - lexiforge - INFO - Completed Request: POST /api/v1/auth/register - Status: 422 - Time: 0.0110s [req_id: 90391a55-3c67-4364-8a25-9fe735152f18]
+2026-07-07 08:13:20,893 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: 308e683b-e5a2-4edb-8d46-feb97e927bf9]
+2026-07-07 08:13:21,069 - lexiforge - ERROR - Failed Request: POST /api/v1/auth/register - Time: 0.1760s [req_id: 308e683b-e5a2-4edb-8d46-feb97e927bf9] - Error: 'password' is an invalid keyword argument for User
+2026-07-07 08:13:21,075 - lexiforge - CRITICAL - Unhandled Exception [req_id: 308e683b-e5a2-4edb-8d46-feb97e927bf9]: 'password' is an invalid keyword argument for User
+2026-07-07 08:13:32,994 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: 9d8ff351-0d99-483d-9eae-5f3b2371fb3d]
+2026-07-07 08:13:33,152 - lexiforge - ERROR - Failed Request: POST /api/v1/auth/register - Time: 0.1578s [req_id: 9d8ff351-0d99-483d-9eae-5f3b2371fb3d] - Error: 'password' is an invalid keyword argument for User
+2026-07-07 08:13:33,156 - lexiforge - CRITICAL - Unhandled Exception [req_id: 9d8ff351-0d99-483d-9eae-5f3b2371fb3d]: 'password' is an invalid keyword argument for User
+2026-07-07 08:13:35,889 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: 9733eedf-2323-48ef-92f2-399fe7377194]
+2026-07-07 08:13:36,176 - lexiforge - ERROR - Failed Request: POST /api/v1/auth/register - Time: 0.2871s [req_id: 9733eedf-2323-48ef-92f2-399fe7377194] - Error: 'password' is an invalid keyword argument for User
+2026-07-07 08:13:36,179 - lexiforge - CRITICAL - Unhandled Exception [req_id: 9733eedf-2323-48ef-92f2-399fe7377194]: 'password' is an invalid keyword argument for User
+2026-07-07 08:13:39,655 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: b3283410-46e4-4476-bcf6-12a2d7419fc9]
+2026-07-07 08:13:39,767 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.1119s [req_id: b3283410-46e4-4476-bcf6-12a2d7419fc9]
+2026-07-07 08:13:40,740 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: d5911d0d-2162-4c3d-923a-9afccea82b07]
+2026-07-07 08:13:40,884 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.1446s [req_id: d5911d0d-2162-4c3d-923a-9afccea82b07]
+2026-07-07 08:14:01,949 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: f14ebb5a-7317-4d33-8078-771351b4021a]
+2026-07-07 08:14:02,141 - lexiforge - ERROR - Failed Request: POST /api/v1/auth/register - Time: 0.1926s [req_id: f14ebb5a-7317-4d33-8078-771351b4021a] - Error: 'password' is an invalid keyword argument for User
+2026-07-07 08:14:02,143 - lexiforge - CRITICAL - Unhandled Exception [req_id: f14ebb5a-7317-4d33-8078-771351b4021a]: 'password' is an invalid keyword argument for User
+2026-07-07 08:16:36,579 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 9697bc13-8423-4e9a-824e-a44cb68c0fd8]
+2026-07-07 08:16:36,747 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.1676s [req_id: 9697bc13-8423-4e9a-824e-a44cb68c0fd8]
+2026-07-07 08:16:37,671 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: a10dfd8a-d77b-487e-9378-216a5178be2f]
+2026-07-07 08:16:37,745 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.0743s [req_id: a10dfd8a-d77b-487e-9378-216a5178be2f]
+2026-07-07 08:16:41,859 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: 952581e1-d960-428b-b1a5-87a4da747e5e]
+2026-07-07 08:16:42,281 - lexiforge - ERROR - Database Error [req_id: 952581e1-d960-428b-b1a5-87a4da747e5e]: (builtins.AttributeError) 'str' object has no attribute 'hex'
+[SQL: INSERT INTO audit_logs (id, user_id, action_type, entity_type, entity_id, ip_address, user_agent, metadata_json, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'user_id': 'ea3addc8-baf9-46c2-817a-87f398a5bb07', 'action_type': 'register', 'metadata_json': None, 'ip_address': '127.0.0.1', 'entity_id': None, 'user_agent': None, 'entity_type': None}]]
+2026-07-07 08:16:42,283 - lexiforge - INFO - Completed Request: POST /api/v1/auth/register - Status: 500 - Time: 0.4241s [req_id: 952581e1-d960-428b-b1a5-87a4da747e5e]
+2026-07-07 08:16:47,084 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: b166e9db-e9eb-49d2-a170-58076fec3ff0]
+2026-07-07 08:16:47,101 - lexiforge - INFO - Completed Request: POST /api/v1/auth/register - Status: 400 - Time: 0.0175s [req_id: b166e9db-e9eb-49d2-a170-58076fec3ff0]
+2026-07-07 08:17:52,852 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: b9802826-2690-408c-8577-038ae0cecb04]
+2026-07-07 08:17:52,874 - lexiforge - INFO - Completed Request: POST /api/v1/auth/register - Status: 400 - Time: 0.0220s [req_id: b9802826-2690-408c-8577-038ae0cecb04]
+2026-07-07 08:18:02,152 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: fb0afe33-2b35-436f-991c-d35bd90d44bb]
+2026-07-07 08:18:02,402 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.2502s [req_id: fb0afe33-2b35-436f-991c-d35bd90d44bb]
+2026-07-07 08:18:13,585 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 5e4478a2-f61a-40c6-aa29-49bd3ed58378]
+2026-07-07 08:18:14,414 - lexiforge - ERROR - Database Error [req_id: 5e4478a2-f61a-40c6-aa29-49bd3ed58378]: (builtins.AttributeError) 'str' object has no attribute 'hex'
+[SQL: INSERT INTO user_sessions (id, user_id, device_info, ip_address, refresh_token, expires_at, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'device_info': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0', 'user ... (151 characters truncated) ... ktNDZjMi04MTdhLTg3ZjM5OGE1YmIwNyIsInR5cGUiOiJyZWZyZXNoIn0.AycKISEHaRrd72RC3ZkfUc7rLQTCwseStySRYT1D0_c', 'ip_address': '127.0.0.1', 'expires_at': None}]]
+2026-07-07 08:18:14,414 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 500 - Time: 0.8290s [req_id: 5e4478a2-f61a-40c6-aa29-49bd3ed58378]
+2026-07-07 08:18:21,715 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 682ef999-6851-48f7-84eb-ac67b749183c]
+2026-07-07 08:18:21,945 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.2298s [req_id: 682ef999-6851-48f7-84eb-ac67b749183c]
+2026-07-07 08:18:24,112 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: c1fb0da7-abc8-42d4-8570-1609da9447ba]
+2026-07-07 08:18:24,362 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.2494s [req_id: c1fb0da7-abc8-42d4-8570-1609da9447ba]
+2026-07-07 08:18:58,637 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: 720d6f58-4f3e-4ac4-99fc-c9716edee291]
+2026-07-07 08:18:59,539 - lexiforge - ERROR - Database Error [req_id: 720d6f58-4f3e-4ac4-99fc-c9716edee291]: (builtins.AttributeError) 'str' object has no attribute 'hex'
+[SQL: INSERT INTO audit_logs (id, user_id, action_type, entity_type, entity_id, ip_address, user_agent, metadata_json, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'user_id': '604deccc-1a8c-4b5a-8dd7-31e159ae9bd0', 'action_type': 'register', 'metadata_json': None, 'ip_address': '127.0.0.1', 'entity_id': None, 'user_agent': None, 'entity_type': None}]]
+2026-07-07 08:18:59,548 - lexiforge - INFO - Completed Request: POST /api/v1/auth/register - Status: 500 - Time: 0.9112s [req_id: 720d6f58-4f3e-4ac4-99fc-c9716edee291]
+2026-07-07 08:20:05,018 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: 3d8e4878-7be3-47e3-a1b2-f421b64d3d8d]
+2026-07-07 08:20:05,035 - lexiforge - INFO - Completed Request: POST /api/v1/auth/register - Status: 400 - Time: 0.0162s [req_id: 3d8e4878-7be3-47e3-a1b2-f421b64d3d8d]
+2026-07-07 08:20:09,061 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: e7e26a49-40f6-4062-a68c-16418f49805d]
+2026-07-07 08:20:09,406 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.3456s [req_id: e7e26a49-40f6-4062-a68c-16418f49805d]
+2026-07-07 08:20:16,056 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 546438e3-51bd-4cb5-b6fb-173313d72563]
+2026-07-07 08:20:16,898 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.8421s [req_id: 546438e3-51bd-4cb5-b6fb-173313d72563]
+2026-07-07 08:27:10,008 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 00b8f033-5d8e-44d1-af21-41cf90a8047d]
+2026-07-07 08:27:10,392 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.3835s [req_id: 00b8f033-5d8e-44d1-af21-41cf90a8047d]
+2026-07-07 08:27:19,063 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 4c771d62-a2d3-4d3d-b423-386a9926b17c]
+2026-07-07 08:27:19,945 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.8820s [req_id: 4c771d62-a2d3-4d3d-b423-386a9926b17c]
+2026-07-07 08:32:42,419 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 24015ffd-0e48-4223-9898-30ab7279e059]
+2026-07-07 08:32:42,733 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.3138s [req_id: 24015ffd-0e48-4223-9898-30ab7279e059]
+2026-07-07 08:40:22,493 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: c781af21-742d-42fa-b49b-104e238403cb]
+2026-07-07 08:40:22,739 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.2460s [req_id: c781af21-742d-42fa-b49b-104e238403cb]
+2026-07-07 08:47:18,934 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: a03cd1dc-73af-4fed-ad33-f29d435b4aaa]
+2026-07-07 08:47:19,544 - lexiforge - INFO - Completed Request: POST /api/v1/auth/register - Status: 201 - Time: 0.6103s [req_id: a03cd1dc-73af-4fed-ad33-f29d435b4aaa]
+2026-07-07 08:47:21,579 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 98a6f46a-4099-4017-be19-c7a8dbe49bd2]
+2026-07-07 08:47:22,139 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 200 - Time: 0.5604s [req_id: 98a6f46a-4099-4017-be19-c7a8dbe49bd2]
+2026-07-07 08:50:37,830 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: e254105b-95ab-4ed0-bb5f-3017bccfff0a]
+2026-07-07 08:50:38,126 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.2967s [req_id: e254105b-95ab-4ed0-bb5f-3017bccfff0a]
+2026-07-07 08:50:45,342 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: f5d04859-48cd-482a-a159-b9cea53111eb]
+2026-07-07 08:50:45,576 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.2338s [req_id: f5d04859-48cd-482a-a159-b9cea53111eb]
+2026-07-07 08:50:50,889 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: 7c87e258-6a57-4b51-9b24-1ec7857fae29]
+2026-07-07 08:50:50,902 - lexiforge - INFO - Completed Request: POST /api/v1/auth/register - Status: 400 - Time: 0.0128s [req_id: 7c87e258-6a57-4b51-9b24-1ec7857fae29]
+2026-07-07 08:50:52,899 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: 7aecabcd-1249-4664-b841-5441a58da6fd]
+2026-07-07 08:50:52,913 - lexiforge - INFO - Completed Request: POST /api/v1/auth/register - Status: 400 - Time: 0.0142s [req_id: 7aecabcd-1249-4664-b841-5441a58da6fd]
+2026-07-07 08:50:56,367 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/register [req_id: 788e92bb-8e9a-4164-9184-53a2c74207e6]
+2026-07-07 08:50:56,657 - lexiforge - INFO - Completed Request: POST /api/v1/auth/register - Status: 201 - Time: 0.2903s [req_id: 788e92bb-8e9a-4164-9184-53a2c74207e6]
+2026-07-07 08:51:04,460 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 974087b3-6445-4129-aa04-02d861e55249]
+2026-07-07 08:51:04,655 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.1948s [req_id: 974087b3-6445-4129-aa04-02d861e55249]
+2026-07-07 08:51:14,079 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 083b4d1c-47ac-4d8d-91a3-f4ea46e7d09b]
+2026-07-07 08:51:14,311 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.2313s [req_id: 083b4d1c-47ac-4d8d-91a3-f4ea46e7d09b]
+2026-07-07 08:51:15,289 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 6a09676b-5f2f-4cce-a23d-9f76da63f8d8]
+2026-07-07 08:51:15,504 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 401 - Time: 0.2146s [req_id: 6a09676b-5f2f-4cce-a23d-9f76da63f8d8]
+2026-07-07 08:51:30,648 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: fe10274c-2d43-458f-99cc-ba83da7a4da7]
+2026-07-07 08:51:31,534 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 200 - Time: 0.8860s [req_id: fe10274c-2d43-458f-99cc-ba83da7a4da7]
+2026-07-07 09:31:06,293 - lexiforge - INFO - Incoming Request: POST /api/v1/auth/login [req_id: 2f2784d7-c07b-4c95-8a99-e1bc639805ad]
+2026-07-07 09:31:11,744 - lexiforge - INFO - Completed Request: POST /api/v1/auth/login - Status: 200 - Time: 5.4657s [req_id: 2f2784d7-c07b-4c95-8a99-e1bc639805ad]
+2026-07-07 09:41:12,624 - lexiforge - INFO - Incoming Request: POST /api/v1/documents/upload [req_id: a065a83f-e811-4596-819b-b44481488df0]
+2026-07-07 09:50:00,323 - lexiforge - INFO - Incoming Request: POST /api/v1/documents/upload [req_id: 3c8234d6-c798-4d0f-82d9-4774679fa280]
+2026-07-07 09:50:00,536 - lexiforge - INFO - Completed Request: POST /api/v1/documents/upload - Status: 200 - Time: 0.2134s [req_id: 3c8234d6-c798-4d0f-82d9-4774679fa280]
+2026-07-07 09:50:48,113 - lexiforge - INFO - Incoming Request: POST /api/v1/documents/upload [req_id: c9193cad-6d15-4626-b8d3-190474e7947a]
+2026-07-07 09:50:48,231 - lexiforge - INFO - Completed Request: POST /api/v1/documents/upload - Status: 200 - Time: 0.1183s [req_id: c9193cad-6d15-4626-b8d3-190474e7947a]
+2026-07-07 09:51:54,148 - lexiforge - INFO - Incoming Request: POST /api/v1/documents/upload [req_id: f219fcab-97ff-4f23-ba91-5e832087c2ab]
+2026-07-07 09:51:54,264 - lexiforge - INFO - Completed Request: POST /api/v1/documents/upload - Status: 200 - Time: 0.1163s [req_id: f219fcab-97ff-4f23-ba91-5e832087c2ab]
+2026-07-07 09:53:01,026 - lexiforge - INFO - Incoming Request: POST /api/v1/documents/upload [req_id: e0b4d291-2195-4bd7-8cde-e5505320e218]
+2026-07-07 09:53:01,033 - lexiforge - INFO - Completed Request: POST /api/v1/documents/upload - Status: 200 - Time: 0.0072s [req_id: e0b4d291-2195-4bd7-8cde-e5505320e218]
+2026-07-07 09:53:43,674 - lexiforge - INFO - Incoming Request: POST /api/v1/documents/upload [req_id: 8dca2763-2255-48f7-ba10-c683242cde12]
+2026-07-07 09:53:43,781 - lexiforge - INFO - Completed Request: POST /api/v1/documents/upload - Status: 200 - Time: 0.1080s [req_id: 8dca2763-2255-48f7-ba10-c683242cde12]
+2026-07-07 09:55:17,422 - lexiforge - INFO - Incoming Request: POST /api/v1/documents/upload [req_id: 327204a5-3539-4c94-ad01-cd84091587ea]
+2026-07-07 09:55:17,641 - lexiforge - INFO - Completed Request: POST /api/v1/documents/upload - Status: 200 - Time: 0.2190s [req_id: 327204a5-3539-4c94-ad01-cd84091587ea]
+2026-07-07 09:56:46,849 - lexiforge - INFO - Incoming Request: POST /api/v1/documents/upload [req_id: 2be5a3cd-c792-4a53-93ff-73e437bdbb6a]
+2026-07-07 09:56:46,993 - lexiforge - INFO - Completed Request: POST /api/v1/documents/upload - Status: 200 - Time: 0.1435s [req_id: 2be5a3cd-c792-4a53-93ff-73e437bdbb6a]
+2026-07-07 09:58:23,578 - lexiforge - INFO - Incoming Request: POST /api/v1/documents/upload [req_id: 60fad1ef-52ac-4323-aa2c-a1388bc1ac2e]
+2026-07-07 09:58:23,834 - lexiforge - INFO - Completed Request: POST /api/v1/documents/upload - Status: 200 - Time: 0.2559s [req_id: 60fad1ef-52ac-4323-aa2c-a1388bc1ac2e]
+2026-07-07 10:20:43,054 - lexiforge - INFO - Incoming Request: POST /api/v1/humanize [req_id: 32c037bc-4101-45ce-959d-a046029a22ac]
+2026-07-07 10:20:43,065 - lexiforge - INFO - Completed Request: POST /api/v1/humanize - Status: 307 - Time: 0.0104s [req_id: 32c037bc-4101-45ce-959d-a046029a22ac]
+2026-07-07 10:20:43,121 - lexiforge - INFO - Incoming Request: POST /api/v1/humanize/ [req_id: c6962bca-04df-4f6d-a96d-0f4197c0c3c3]
+2026-07-07 10:20:50,093 - lexiforge - INFO - Completed Request: POST /api/v1/humanize/ - Status: 200 - Time: 6.9724s [req_id: c6962bca-04df-4f6d-a96d-0f4197c0c3c3]
+2026-07-07 10:21:51,659 - lexiforge - INFO - Incoming Request: POST /api/v1/humanize [req_id: 945a7c6a-7e34-4df6-ae09-28b83053761b]
+2026-07-07 10:21:51,666 - lexiforge - INFO - Completed Request: POST /api/v1/humanize - Status: 307 - Time: 0.0072s [req_id: 945a7c6a-7e34-4df6-ae09-28b83053761b]
+2026-07-07 10:21:51,693 - lexiforge - INFO - Incoming Request: POST /api/v1/humanize/ [req_id: eef4e882-3f86-46f5-9242-29d1d52edbc7]
+2026-07-07 10:21:52,218 - lexiforge - INFO - Completed Request: POST /api/v1/humanize/ - Status: 200 - Time: 0.5251s [req_id: eef4e882-3f86-46f5-9242-29d1d52edbc7]
+2026-07-07 10:22:48,882 - lexiforge - INFO - Incoming Request: POST /api/v1/detect [req_id: 2055c057-e62c-405b-8481-bb8543071d6e]
+2026-07-07 10:22:48,882 - lexiforge - INFO - Completed Request: POST /api/v1/detect - Status: 307 - Time: 0.0000s [req_id: 2055c057-e62c-405b-8481-bb8543071d6e]
+2026-07-07 10:22:48,918 - lexiforge - INFO - Incoming Request: POST /api/v1/detect/ [req_id: d1eac34a-cd5c-4860-89d2-85a01d31ae88]
+2026-07-07 10:22:56,579 - lexiforge - ERROR - Failed Request: POST /api/v1/detect/ - Time: 7.6609s [req_id: d1eac34a-cd5c-4860-89d2-85a01d31ae88] - Error: Models are not loaded. Warm-up required.
+2026-07-07 10:22:56,594 - lexiforge - CRITICAL - Unhandled Exception [req_id: d1eac34a-cd5c-4860-89d2-85a01d31ae88]: Models are not loaded. Warm-up required.
+2026-07-07 10:23:09,146 - lexiforge - INFO - Incoming Request: POST /api/v1/detect [req_id: bf4e3d34-da81-4477-8b5f-71f0ea507571]
+2026-07-07 10:23:09,153 - lexiforge - INFO - Completed Request: POST /api/v1/detect - Status: 307 - Time: 0.0066s [req_id: bf4e3d34-da81-4477-8b5f-71f0ea507571]
+2026-07-07 10:23:09,171 - lexiforge - INFO - Incoming Request: POST /api/v1/detect/ [req_id: 69c5fe41-63cc-4cfb-9f75-4ec48a2109ac]
+2026-07-07 10:23:09,266 - lexiforge - ERROR - Failed Request: POST /api/v1/detect/ - Time: 0.0954s [req_id: 69c5fe41-63cc-4cfb-9f75-4ec48a2109ac] - Error: Models are not loaded. Warm-up required.
+2026-07-07 10:23:09,272 - lexiforge - CRITICAL - Unhandled Exception [req_id: 69c5fe41-63cc-4cfb-9f75-4ec48a2109ac]: Models are not loaded. Warm-up required.
+2026-07-07 10:23:12,103 - lexiforge - INFO - Incoming Request: POST /api/v1/detect [req_id: f62e9ecf-62f5-4037-91dc-4d1e8e74251c]
+2026-07-07 10:23:12,113 - lexiforge - INFO - Completed Request: POST /api/v1/detect - Status: 307 - Time: 0.0096s [req_id: f62e9ecf-62f5-4037-91dc-4d1e8e74251c]
+2026-07-07 10:23:12,138 - lexiforge - INFO - Incoming Request: POST /api/v1/detect/ [req_id: 836e139c-de52-491a-9600-add3fe922f3a]
+2026-07-07 10:23:12,310 - lexiforge - ERROR - Failed Request: POST /api/v1/detect/ - Time: 0.1720s [req_id: 836e139c-de52-491a-9600-add3fe922f3a] - Error: Models are not loaded. Warm-up required.
+2026-07-07 10:23:12,318 - lexiforge - CRITICAL - Unhandled Exception [req_id: 836e139c-de52-491a-9600-add3fe922f3a]: Models are not loaded. Warm-up required.
+2026-07-07 10:23:22,753 - lexiforge - INFO - Incoming Request: POST /api/v1/detect [req_id: f4d980f4-72b2-41d1-a57f-d6c2ffe64927]
+2026-07-07 10:23:22,761 - lexiforge - INFO - Completed Request: POST /api/v1/detect - Status: 307 - Time: 0.0080s [req_id: f4d980f4-72b2-41d1-a57f-d6c2ffe64927]
+2026-07-07 10:23:22,784 - lexiforge - INFO - Incoming Request: POST /api/v1/detect/ [req_id: 23b4d2d4-9031-4087-8810-858ac6774c27]
+2026-07-07 10:23:22,841 - lexiforge - ERROR - Failed Request: POST /api/v1/detect/ - Time: 0.0574s [req_id: 23b4d2d4-9031-4087-8810-858ac6774c27] - Error: Models are not loaded. Warm-up required.
+2026-07-07 10:23:22,845 - lexiforge - CRITICAL - Unhandled Exception [req_id: 23b4d2d4-9031-4087-8810-858ac6774c27]: Models are not loaded. Warm-up required.
+2026-07-07 10:23:42,264 - lexiforge - INFO - Incoming Request: POST /api/v1/detect [req_id: ed0dc37a-962b-47e2-bca2-0890cbafd01a]
+2026-07-07 10:23:42,272 - lexiforge - INFO - Completed Request: POST /api/v1/detect - Status: 307 - Time: 0.0083s [req_id: ed0dc37a-962b-47e2-bca2-0890cbafd01a]
+2026-07-07 10:23:42,297 - lexiforge - INFO - Incoming Request: POST /api/v1/detect/ [req_id: 6749d8c2-c91e-4636-a3a6-c9afc4feab70]
+2026-07-07 10:23:42,465 - lexiforge - ERROR - Failed Request: POST /api/v1/detect/ - Time: 0.1683s [req_id: 6749d8c2-c91e-4636-a3a6-c9afc4feab70] - Error: Models are not loaded. Warm-up required.
+2026-07-07 10:23:42,468 - lexiforge - CRITICAL - Unhandled Exception [req_id: 6749d8c2-c91e-4636-a3a6-c9afc4feab70]: Models are not loaded. Warm-up required.
+2026-07-07 10:23:43,907 - lexiforge - INFO - Incoming Request: POST /api/v1/detect [req_id: 939294b7-6dfd-4944-82bc-71733de3ed96]
+2026-07-07 10:23:43,913 - lexiforge - INFO - Completed Request: POST /api/v1/detect - Status: 307 - Time: 0.0063s [req_id: 939294b7-6dfd-4944-82bc-71733de3ed96]
+2026-07-07 10:23:43,934 - lexiforge - INFO - Incoming Request: POST /api/v1/detect/ [req_id: 5109b1c2-e22d-4934-b187-26ff3f6d4efc]
+2026-07-07 10:23:44,127 - lexiforge - ERROR - Failed Request: POST /api/v1/detect/ - Time: 0.1923s [req_id: 5109b1c2-e22d-4934-b187-26ff3f6d4efc] - Error: Models are not loaded. Warm-up required.
+2026-07-07 10:23:44,138 - lexiforge - CRITICAL - Unhandled Exception [req_id: 5109b1c2-e22d-4934-b187-26ff3f6d4efc]: Models are not loaded. Warm-up required.
+2026-07-07 10:24:05,176 - lexiforge - INFO - Incoming Request: POST /api/v1/grammar/check [req_id: 22caa767-db10-42fa-ac66-4b0114946bec]
+2026-07-07 10:24:05,271 - lexiforge - WARNING - Validation Error [req_id: 22caa767-db10-42fa-ac66-4b0114946bec]: [{'type': 'enum', 'loc': ('body', 'correction_mode'), 'msg': "Input should be 'grammar_only', 'grammar_style' or 'full_enhancement'", 'input': 'standard', 'ctx': {'expected': "'grammar_only', 'grammar_style' or 'full_enhancement'"}}, {'type': 'enum', 'loc': ('body', 'writing_mode'), 'msg': "Input should be 'academic', 'business', 'technical' or 'creative'", 'input': 'general', 'ctx': {'expected': "'academic', 'business', 'technical' or 'creative'"}}]
+2026-07-07 10:24:05,278 - lexiforge - INFO - Completed Request: POST /api/v1/grammar/check - Status: 422 - Time: 0.1013s [req_id: 22caa767-db10-42fa-ac66-4b0114946bec]

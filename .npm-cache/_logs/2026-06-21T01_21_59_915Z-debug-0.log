@@ -1,0 +1,41 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:F:\new_palgrisum_ai\.npmrc
+5 silly config load:file:C:\Users\praveen\.npmrc
+6 silly config load:file:C:\Users\praveen\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm exec create-next-app@latest frontend --typescript --tailwind --eslint --app --src-dir --import-alias @/* --use-npm
+8 verbose argv "exec" "--yes" "--" "create-next-app@latest" "frontend" "--typescript" "--tailwind" "--eslint" "--app" "--src-dir" "--import-alias" "@/*" "--use-npm"
+9 verbose logfile logs-max:10 dir:F:\new_palgrisum_ai\.npm-cache\_logs\2026-06-21T01_21_59_915Z-
+10 verbose logfile F:\new_palgrisum_ai\.npm-cache\_logs\2026-06-21T01_21_59_915Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 http fetch GET 200 https://registry.npmjs.org/npm 33409ms
+14 http fetch GET 200 https://registry.npmjs.org/create-next-app 49324ms (cache miss)
+15 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+16 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+17 silly idealTree buildDeps
+18 silly fetch manifest create-next-app@16.2.9
+19 silly packumentCache full:https://registry.npmjs.org/create-next-app cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/create-next-app 2920ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/create-next-app set size:undefined disposed:false
+22 silly placeDep ROOT create-next-app@16.2.9 OK for:  want: 16.2.9
+23 silly reify moves {}
+24 silly audit bulk request { 'create-next-app': [ '16.2.9' ] }
+25 http cache create-next-app@https://registry.npmjs.org/create-next-app/-/create-next-app-16.2.9.tgz 1ms (cache hit)
+26 silly tarball no local data for create-next-app@https://registry.npmjs.org/create-next-app/-/create-next-app-16.2.9.tgz. Extracting by manifest.
+27 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 630ms
+28 silly audit report {}
+29 http fetch GET 200 https://registry.npmjs.org/create-next-app/-/create-next-app-16.2.9.tgz 2171ms (cache miss)
+30 verbose cwd F:\new_palgrisum_ai
+31 verbose os Windows_NT 10.0.26100
+32 verbose node v24.15.0
+33 verbose npm  v11.12.1
+34 notice
+34 notice New minor version of npm available! 11.12.1 -> 11.17.0
+34 notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+34 notice To update run: npm install -g npm@11.17.0
+34 notice  { force: true, Symbol(proc-log.meta): true }
+35 verbose exit 0
+36 info ok
